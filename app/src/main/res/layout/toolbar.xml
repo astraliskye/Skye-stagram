@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!-- Older versions of android don't support Theme.Material, so
+     we use Theme.AppCompat. However, older versions also don't support
+     the ActionBar, so we use a ToolBar instead.
+         ThemeOverlay is used to style the toolbar, which lets the app
+     specify a NoActionBar theme.
+         Style the popup menu:
+     app:popupTheme="@style/ThemeOverlay.AppCompat.Light"-->
+    <androidx.appcompat.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:fitsSystemWindows="true"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        ></androidx.appcompat.widget.Toolbar>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Skye-stagram</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="logout">Logout</string>
+    <string name="capture_image">Capture Image</string>
+    <string name="description">Write a description...</string>
+    <string name="submit">Submit</string>
+
+    <string name="cd_post_image">image that will be posted</string>
+</resources>
