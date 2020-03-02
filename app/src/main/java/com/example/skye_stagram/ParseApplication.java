@@ -23,6 +23,5 @@ public class ParseApplication extends Application
         .applicationId("skye-stagram")      // APP_ID
         .clientKey("LovelyOrbiting")
         .server("https://skye-stagram.herokuapp.com/parse/").build());  // ensure the url uses https so the web traffic is encrypted
-
     }
 }
