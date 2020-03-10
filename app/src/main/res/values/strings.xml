@@ -11,4 +11,11 @@
     <string name="submit">Submit</string>
 
     <string name="cd_post_image">image that will be posted</string>
+
+    <string name="home">Home</string>
+    <string name="compose">Compose</string>
+    <string name="profile">Profile</string>
+
+    <string name="drawerOpen">Open navigation drawer</string>
+    <string name="drawerClose">Close navigation drawer</string>
 </resources>
